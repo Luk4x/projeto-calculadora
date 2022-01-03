@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../faviconluk4x.ico" type="image/x-icon">
+    <title>Praticando CSS Grid v1</title>
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas: "header header header header" "main main main aside" "footer footer footer footer";
+    }
+
+    header {
+        background-color: aliceblue;
+        height: 100px;
+        grid-area: header;
+    }
+
+    main {
+        background-color: red;
+        height: 900px;
+        grid-area: main;
+    }
+
+    aside {
+        background-color: blue;
+        height: 100%;
+        grid-area: aside;
+    }
+
+    footer {
+        background-color: aqua;
+        height: 100px;
+        grid-area: footer;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+
+        </header>
+        <main>
+
+        </main>
+        <aside>
+
+        </aside>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>

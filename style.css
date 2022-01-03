@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+header {
+    background-color: aliceblue;
+    height: 100%;
+    grid-column: 1 / 3;
+}
+
+main {
+    background-color: red;
+    height: 700px;
+    grid-column: 1 / 2;
+}
+
+aside {
+    background-color: blue;
+    height: 100%;
+    grid-column: 2 / 3;
+}
+
+footer {
+    background-color: aqua;
+    height: 100%;
+    grid-column: 1 / 3;
+}
