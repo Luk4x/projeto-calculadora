@@ -3,7 +3,7 @@
 :root {
     --font1: 'GFS Neohellenic', sans-serif;
     --col1: #68686c;
-    --col2: #f1523d;
+    --col2: #3b38f3;
     --col3: #75757D;
     --col4: #5A5663;
     --col5: #4A494F;
@@ -51,7 +51,7 @@ section {
     color: whitesmoke;
     cursor: pointer;
     font-size: 1.8em;
-    border: 0.1px solid #4a494fb2;
+    border: 0.1px solid #4a494fce;
 }
 
 .item:hover {
