@@ -1,16 +1,16 @@
 document.addEventListener('keypress', keyboardLis)
-document.addEventListener('keydown', backspaceLis) // fresco
+document.addEventListener('keydown', backspaceLis) // fresco 
 
 function keyboardLis(keyp) {
     if ((keyp.key>=0 && keyp.key<=9) || keyp.key=='*' || keyp.key=='/' || keyp.key=='-' || keyp.key=='+' || keyp.key==',' || keyp.key=='.') {
         if (keyp.key==',') {
-            document.getElementById('displayCalc').value += '.'
+            insertValues('.')
         } else {
-            document.getElementById('displayCalc').value += keyp.key
+            insertValues(keyp.key)
         }
     } else if (keyp.key=='%') {
         percentCalc()
-    } else if (keyp.key=='Enter') {
+    } else if (keyp.key=='Enter' || keyp.key=='=') {
         calculate()
     } else if (keyp.key=='Delete') {
         displayClear()
@@ -30,8 +30,12 @@ function insertValues(value) {
 }
 
 function calculate() {
-    let resultCalc = eval(document.getElementById('displayCalc').value)
-    document.getElementById('displayCalc').value = resultCalc
+    if (document.getElementById('displayCalc').value == '') {
+        document.getElementById('displayCalc').value = '0'
+    } else {
+        let resultCalc = eval(document.getElementById('displayCalc').value)
+        document.getElementById('displayCalc').value = resultCalc
+    }
 }
 
 function displayClear() {
@@ -41,20 +45,21 @@ function displayClear() {
 function invertSign() {
     if (document.getElementById('displayCalc').value == '') {
         document.getElementById('displayCalc').value = '0'
-    }
+    } else {
 
     calculate()
 
     document.getElementById('displayCalc').value *= -1
+    }
 }
 
 function percentCalc() {
     if (document.getElementById('displayCalc').value == '') {
         document.getElementById('displayCalc').value = '0'
+    } else {
+        calculate()
+
+        resultPercentCalc = document.getElementById('displayCalc').value / 100
+        document.getElementById('displayCalc').value = resultPercentCalc
     }
-
-    calculate()
-
-    resultPercentCalc = document.getElementById('displayCalc').value / 100
-    document.getElementById('displayCalc').value = resultPercentCalc
 }
