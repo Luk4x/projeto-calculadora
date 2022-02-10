@@ -7,7 +7,7 @@ Web Calculator created with HTML5, CSS3 and JavaScript. I especially improved my
 <img src="./result.png" alt="challenge-result">
 Access the project <a href="https://luk4x.github.io/projeto-calculadora/">HERE</a>
 
-## 🤝 Contributors Linkedin
+## Contributors Contact
 <table>
   <tr>
     <td align="center">
