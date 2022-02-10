@@ -1,7 +1,7 @@
 # Calculator
 
 ## About
-Web Calculator created with HTML5, CSS3 and JavaScript. I especially improved my knowledge of CSS and JavaScript, by organizing the calculator in grid, and by doing the key mapping.
+Calculator created with HTML5, CSS3 and JavaScript. I especially improved my knowledge of CSS and JavaScript, by organizing the calculator in grid, and by doing the key mapping.
 
 ## Result
 <img src="./result.png" alt="challenge-result">
