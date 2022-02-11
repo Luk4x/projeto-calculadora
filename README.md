@@ -1,13 +1,13 @@
 # Calculator
 
 ## About
-Web Calculator using HTML5, CSS3 and JavaScript.
+Calculator created with HTML5, CSS3 and JavaScript. I especially improved my knowledge of CSS and JavaScript, by organizing the calculator in grid, and by doing the key mapping.
 
 ## Result
 <img src="./result.png" alt="challenge-result">
 Access the project <a href="https://luk4x.github.io/projeto-calculadora/">HERE</a>
 
-## 🤝 Contributors Linkedin
+## Contributors Contact
 <table>
   <tr>
     <td align="center">
