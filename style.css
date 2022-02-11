@@ -20,7 +20,7 @@
 main {
     background-image: linear-gradient(var(--col1), var(--col2));
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -28,8 +28,10 @@ main {
 
 section {
     display: grid;
+    width: 95%;
+    margin: auto;
     height: 580px;
-    width: 420px;
+    max-width: 430px;
     grid-template-columns: repeat(4, 1fr); /* 1fr 1fr 1fr 1fr */
     grid-template-rows: repeat(6, 1fr);
 }
