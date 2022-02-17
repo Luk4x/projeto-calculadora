@@ -54,15 +54,23 @@ section {
     cursor: pointer;
     font-size: 1.8em;
     border: 0.1px solid #4a494fce;
+    transition: all .2s ease;
 }
 
-.item:hover {
-    transition-duration: 0.2s;
+.item:hover, .active {
     opacity: 0.85;
     margin: 2px;
 }
 
 .item:active {
+    background-color: transparent;
+    color: var(--col5);
+}
+
+.active {
+    opacity: 0.85;
+    margin: 2px;
+    transition: all .2s ease;
     background-color: transparent;
     color: var(--col5);
 }

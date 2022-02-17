@@ -13,25 +13,25 @@
     <main> 
         <section>
             <input disabled id="displayCalc">
-            <button onclick="displayClear()" class="item button-operations">AC</button>
-            <button onclick="invertSign()" class="item button-operations">+/-</button>
-            <button onclick="percentCalc()" class="item button-operations">%</button>
-            <button onclick="insertValues('/')" class="item button-operations-right">÷</button>
-            <button onclick="insertValues('7')" class="item button-numbers">7</button>
-            <button onclick="insertValues('8')" class="item button-numbers">8</button>
-            <button onclick="insertValues('9')" class="item button-numbers">9</button>
-            <button onclick="insertValues('*')" class="item button-operations-right">x</button>
-            <button onclick="insertValues('4')" class="item button-numbers">4</button>
-            <button onclick="insertValues('5')" class="item button-numbers">5</button>
-            <button onclick="insertValues('6')" class="item button-numbers">6</button>
-            <button onclick="insertValues('-')" class="item button-operations-right">-</button>
-            <button onclick="insertValues('1')" class="item button-numbers">1</button>
-            <button onclick="insertValues('2')" class="item button-numbers">2</button>
-            <button onclick="insertValues('3')" class="item button-numbers">3</button>
-            <button onclick="insertValues('+')" class="item button-operations-right">+</button>
-            <button onclick="insertValues('0')" class="item zero button-numbers">0</button>
-            <button onclick="insertValues('.')" class="item button-numbers">,</button>
-            <button onclick="calculate()" class="item equal button-operations-right">=</button>
+            <button onclick="displayClear()" class="item button-operations" id="backspace-key">AC</button>
+            <button onclick="invertSign()" class="item button-operations" id="moreMinus-key">+/-</button>
+            <button onclick="percentCalc()" class="item button-operations" id="percent-key">%</button>
+            <button onclick="insertValues('/')" class="item button-operations-right" id="division-key">÷</button>
+            <button onclick="insertValues('7')" class="item button-numbers" id="seven-key">7</button>
+            <button onclick="insertValues('8')" class="item button-numbers" id="eight-key">8</button>
+            <button onclick="insertValues('9')" class="item button-numbers" id="nine-key">9</button>
+            <button onclick="insertValues('*')" class="item button-operations-right" id="mutiplication-key">x</button>
+            <button onclick="insertValues('4')" class="item button-numbers" id="four-key">4</button>
+            <button onclick="insertValues('5')" class="item button-numbers" id="five-key">5</button>
+            <button onclick="insertValues('6')" class="item button-numbers" id="six-key">6</button>
+            <button onclick="insertValues('-')" class="item button-operations-right" id="minos-key">-</button>
+            <button onclick="insertValues('1')" class="item button-numbers" id="one-key">1</button>
+            <button onclick="insertValues('2')" class="item button-numbers" id="two-key">2</button>
+            <button onclick="insertValues('3')" class="item button-numbers" id="three-key">3</button>
+            <button onclick="insertValues('+')" class="item button-operations-right" id="plus-key">+</button>
+            <button onclick="insertValues('0')" class="item zero button-numbers" id="zero-key">0</button>
+            <button onclick="insertValues('.')" class="item button-numbers" id="point-key">,</button>
+            <button onclick="calculate()" class="item equal button-operations-right" id="equal-key">=</button>
         </section>
     </main>
 </body>
