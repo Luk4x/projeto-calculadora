@@ -5,7 +5,7 @@ Calculator created with HTML5, CSS3 and JavaScript. I especially improved my kno
 
 ## Result
 <p align="center">
-  <video src="https://user-images.githubusercontent.com/86276393/153721933-74286097-3d0a-43a8-a617-ed4596e20962.mp4">
+  <video src="https://user-images.githubusercontent.com/86276393/155037512-fba15e46-2b26-4d08-818e-c8595e199c2a.mp4">
 </p>
 Access the project <a href="https://luk4x.github.io/projeto-calculadora/">HERE</a>
 
