@@ -18,12 +18,61 @@
 }
 
 main {
-    background-image: linear-gradient(var(--col1), var(--col2));
+    background: linear-gradient(var(--col1), var(--col2));
     width: 100vw;
     min-height: 100vh;
     display: grid;
     justify-content: center;
     align-content: center;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: rgb(179, 177, 177);
+    border-radius: 20px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-list-item {
+    height: 27px;
+    width: 27px;
+    background: #3b38f3;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.527);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.menu-list-item:nth-child(2) {
+    background: #8d0808;
+}
+
+.menu-list-item:hover {
+    transform: translateY(2px);
+}
+
+.indicator {
+    position: absolute;
+    background: var(--col1);
+    width: 20px;
+    height: 20px;
+    left: 11px;
+    top: -24px;
+    border-radius: 50%;
+    transition: all .5s ease;
 }
 
 section {

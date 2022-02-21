@@ -1,3 +1,19 @@
+// themes
+let allLi = document.querySelectorAll('li')
+
+allLi.forEach((li, i) => {
+    li.addEventListener('click', e => {
+        let indicator = document.querySelector('.indicator')
+        indicator.style.transform = `translateX(calc(${i * 43}px))`
+        
+        if(i === 0) {
+            document.documentElement.style.setProperty('--col2', '#3b38f3')
+        } else {
+            document.documentElement.style.setProperty('--col2', '#8d0808')
+        }
+    })
+})
+
 // keybord feedback animation
 let equalKey = document.getElementById('equal-key')
 let bsKey = document.getElementById('backspace-key')
