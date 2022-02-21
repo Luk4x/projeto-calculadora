@@ -249,41 +249,43 @@ function backspaceLis(keyp) {
 }
 
 // getting and treating values
+let displayCalc = document.getElementById('displayCalc')
+
 function insertValues(value) {
-    document.getElementById('displayCalc').value += value
+    displayCalc.value += value
 }
 
 function calculate() {
-    if (document.getElementById('displayCalc').value == '') {
-        document.getElementById('displayCalc').value = '0'
+    if (displayCalc.value == '') {
+        displayCalc.value = '0'
     } else {
-        let resultCalc = eval(document.getElementById('displayCalc').value)
-        document.getElementById('displayCalc').value = resultCalc
+        let resultCalc = eval(displayCalc.value)
+        displayCalc.value = resultCalc
     }
 }
 
 function displayClear() {
-    document.getElementById('displayCalc').value = ''
+    displayCalc.value = ''
 }
 
 function invertSign() {
-    if (document.getElementById('displayCalc').value == '') {
-        document.getElementById('displayCalc').value = '0'
+    if (displayCalc.value == '') {
+        displayCalc.value = '0'
     } else {
 
     calculate()
 
-    document.getElementById('displayCalc').value *= -1
+    displayCalc.value *= -1
     }
 }
 
 function percentCalc() {
-    if (document.getElementById('displayCalc').value == '') {
-        document.getElementById('displayCalc').value = '0'
+    if (displayCalc.value == '') {
+        displayCalc.value = '0'
     } else {
         calculate()
 
-        resultPercentCalc = document.getElementById('displayCalc').value / 100
-        document.getElementById('displayCalc').value = resultPercentCalc
+        resultPercentCalc = displayCalc.value / 100
+        displayCalc.value = resultPercentCalc
     }
 }
