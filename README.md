@@ -5,6 +5,7 @@ Calculator created with HTML5, CSS3 and JavaScript.
 I especially improved my knowledge of:
 - CSS by using grid and position to arrange the elements that way, making the animations, making it responsive...
 - JavaScript by doing key mapping (and giving feedback when pressed), changing the theme...
+
 It took some work, but I really liked the result.
 
 ## Result
