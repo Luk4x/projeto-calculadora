@@ -1,11 +1,16 @@
 # Calculator
 
 ## About
-Calculator created with HTML5, CSS3 and JavaScript. I especially improved my knowledge of CSS and JavaScript, by organizing the calculator in grid, and by doing the key mapping.
+Calculator created with HTML5, CSS3 and JavaScript.
+I especially improved my knowledge of:
+- CSS by using grid and position to arrange the elements that way, making the animations, making it responsive...
+- JavaScript by doing key mapping (and giving feedback when pressed), changing the theme...
+
+It took some work, but I really liked the result.
 
 ## Result
 <p align="center">
-  <video src="https://user-images.githubusercontent.com/86276393/153721933-74286097-3d0a-43a8-a617-ed4596e20962.mp4">
+  <video src="https://user-images.githubusercontent.com/86276393/155037512-fba15e46-2b26-4d08-818e-c8595e199c2a.mp4">
 </p>
 Access the project <a href="https://luk4x.github.io/projeto-calculadora/">HERE</a>
 
